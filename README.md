@@ -1,9 +1,18 @@
 # PowerPCROM
 
+### Overview
 
-Offset | End | Size | Description 
---- | --- | --- | --- | ---
-0 | 3145728 | 3145728 | 68K ROM
-850800 |  |  | RomRsrc
-3276800 | 3452396 | 175596 | HWInit
-3211264 | 3240136 | 28827 | NanoKernel
+Start | End | Size | Description
+--- | --- | --- | ---
+0 | 3,145,728 | 3.1 MB | 68K ROM
+3,211,264 | 3,240,136 | 28.8 KB | NanoKernel
+3,276,800 | 3,452,396 | 175.5 KB | HWInit
+
+
+### 68K ROM
+
+Start | End | Size | Description
+--- | --- | --- | ---
+0 | 112 | 112 B | Header
+112 | 850,800 | 850.6 KB | Code
+850,800 | 3,145,728 | 2.3 MB | Resources
